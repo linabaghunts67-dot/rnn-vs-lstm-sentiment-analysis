@@ -58,3 +58,54 @@ The RNN struggles because gradients shrink during backpropagation through time.
 ## Experiment 2: Stop Word Removal
 
 Original review:
+
+
+i thought the movie was not bad and it was a joy to watch
+
+
+After removing stop words:
+
+
+thought movie bad joy watch
+
+
+The word **"not"** disappears, which changes the meaning.
+
+The model may incorrectly classify the review as **negative**.
+
+---
+
+## Technologies Used
+
+- Python
+- PyTorch
+- NLP
+- Deep Learning
+
+---
+
+## Key Concepts
+
+- Recurrent Neural Networks
+- LSTM
+- Vanishing Gradient Problem
+- Sentiment Analysis
+- Text Preprocessing
+
+---
+
+## How to Run
+
+Install dependencies:
+
+
+pip install -r requirements.txt
+
+
+Run the notebook or training script.
+
+---
+
+## Author
+
+GitHub: linabaghunts67-dot
